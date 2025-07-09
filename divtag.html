@@ -2,6 +2,11 @@
 <html>
     <head><title>div tag</title></head>
     <style>
+        p{
+            font-family:Arial;
+            margin-bottom:0;
+            margin-top:0;
+        }
         .red-square{
             width:100px;
             background-color:red;
@@ -14,11 +19,109 @@
             width:100px;
             height:100px;
             border-radius:50px;
-            display:inline-block;
+            margin-bottom:100px;
         }
+        .yes-no{
+            width:350px;
+            height:110px;
+            border: 1px solid rgba(128, 128, 128, 0.605);
+            margin-left:10px;
+            margin-bottom: 100px;
+        }
+        .service{
+            padding:20px 0px 17px 20px;
+            font-size:20px;
+            
+        }
+        .yes{
+            margin-left:20px;
+            font-size:16px;
+           
+        }
+        .no{
+            font-size:16px;
+            margin-top:0;
+        }
+        .yt-music{
+            width:400px;
+            height: 120px;
+            background-color: rgba(15, 14, 14, 0.953);
+            margin-bottom:200px;
+        }
+        .yt-title{
+            color:white;
+            font-weight:bold;
+            font-size:25px;
+            padding-top:20px;
+            padding-left: 20px;
+
+        }
+        .yt-description{
+            color:gray;
+            padding:15px 0px 0px 20px;
+        }
+        .text-msg{
+            width:400px;
+            height:50px;
+            margin-bottom:200px;
+            border-radius:5px;
+            border:none;
+            box-shadow:0px 0px 8px gray;
+            margin-left:10px;
+            display:inline-block;
+            
+
+        }
+        .profile{
+            width:40px;
+            border-radius:50%;
+            display:inline-block;
+            padding:5px 0px 5px 10px;
+            
+        }
+        .input-txt{
+            border:none;
+            vertical-align:middle;
+            display:inline-block;
+            margin-bottom: 35px;
+            border:none;
+            outline:none;
+        }
+        .tweet-button{
+            font-family:Arial;
+            display:inline-block;
+            height:28px;
+            font-size: 14px;
+            font-weight: bold;
+            color:white;
+            border-radius:15px;
+            border:none;
+            width:60px;
+            background-color:rgba(0, 110, 255, 0.743);
+            margin-bottom:39px;
+            margin-left:95px;
+            vertical-align:middle;
+            cursor:pointer;
+        }
+
     </style>
     <body>
         <div class="red-square"> </div>
         <div class="green-circle"></div>
+        <div class="yes-no">
+            <p class="service">Satisfied with our service?</p>
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+        </div>
+        <div class="yt-music">
+            <p class="yt-title">Install YouTube Music</p>
+            <p class="yt-description">Add YouTube Music 
+                to your desktop for quick and easy access</p>
+        </div>
+        <div class="text-msg">
+        <img class="profile" src="images.jfif">
+            <input class="input-txt" type="text" placeholder="What's happening?">
+            <button class="tweet-button">Tweet</button>
+        </div>
     </body>
 </html>
