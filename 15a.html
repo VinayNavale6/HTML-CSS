@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Position Practice</title></head>
+    <style>
+        .timestamp{
+            position:absolute;
+            background-color: black;
+            color:white;
+            bottom:0px;
+            right:11px;
+            width:35px;
+            font-size: 15px;
+            text-align: center;
+            display: inline-block;
+        }
+        .close-button{
+            cursor:pointer;
+            position: absolute;
+            background-color: black;
+            color:white;
+            width:20px;
+            border-radius: 20px;
+            text-align:center;
+            font-family: Arial;
+            height:23px;
+            width:23px;
+            left:-10px;
+            top:-8px;
+            display:inline-block;
+        }
+        .gray-box{
+            background-color:lightblue;
+            width:245px;
+            height:130px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+            margin-bottom: 10px;
+            display: inline-block;
+        
+        }
+        .handm{
+            position:relative;
+            display:inline-block;
+            width:245px;
+            height:140px;
+            top:0;
+
+        }
+        .button{
+            width:78px;
+            cursor:pointer;
+        }
+        .play-png{
+            cursor:pointer;
+            position:absolute;
+            display:inline-block;
+            right:85px;
+            bottom:15px;
+            width:78px;   
+        }
+
+        /* lajglkjfg */
+
+        .shirt-img{
+            width:250px;
+            height:300px;
+            
+        }
+        .shirt-display{
+            position:relative;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .offer-tag{
+            font-family: Arial;
+            font-size: 12px;
+            position:absolute;
+            width:70px;
+            background-color: black;
+            color:white;
+            text-align: center;
+            right:0;
+            top:10px;
+            padding-top: 4px;
+            padding-bottom: 3px;
+            display: inline-block;
+
+        }
+        .light-box{
+            background-color:rgba(255, 255, 255, 0.514);
+            position:absolute;
+            width:250px;
+            bottom:0;
+            height:100px;
+            display: inline-block;
+
+        }
+        .button-class{
+            display:flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .button{
+            border-color: black;
+            width: 90px;
+            height:30px;
+            font-size:12px;
+            cursor:pointer;
+        }
+    </style>
+    <body style = height:800px; >
+        <div class="shirt-display">
+            <div class="offer-tag">20% OFF</div>
+            <div class="light-box">
+            <div class="button-class"><button class="button">Add to Cart</button></div>
+
+            </div>
+            <img class="shirt-img" src="image/shirt1.jpg">
+        </div>
+
+        <div class="gray-box"> 
+            
+            
+                <img class="handm" src="image/handm.jpg">
+                <img class="play-png" src="image/play-button.avif">
+                <div class="timestamp">0:29</div>
+                <div class="close-button">x</div>
+        </div>
+        
+    </body>
+</html>
